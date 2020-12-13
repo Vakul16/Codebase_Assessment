@@ -26,6 +26,10 @@ const imgs = document.querySelectorAll("img");
   }
 });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 202b9fd88e6bc4a339114717159848654a5b2339
 // let ele = document.createElement('div')
 // ele.style.width = '728px';
 // ele.style.height = '90px';
