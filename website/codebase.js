@@ -2,8 +2,7 @@ function removeColumn(thisID){
   $('#'+thisID).css('background-color', 'blue');
   // document.getElementById.style('background-color', 'blue');
 }
-
-  counter = 0 ;
+ counter = 0 ;
 const imgs = document.querySelectorAll("img");
   imgs.forEach(img => { 
   
@@ -24,8 +23,9 @@ const imgs = document.querySelectorAll("img");
     img.after(iDiv);
     counter = counter +1 ;
   }
-  
 });
+
+
 // let ele = document.createElement('div')
 // ele.style.width = '728px';
 // ele.style.height = '90px';
@@ -47,104 +47,3 @@ const imgs = document.querySelectorAll("img");
 //   ele.appendChild(ifrm);
 // }
 // prepareFrame()
-
-
-// document.getElementById("entry-content");
-// document.getElementById("myParagraph").innerHTML = "This is <em>your</em> paragraph!";
-
-// botaoMais.addEventListener('click', (function(i) {
-//   return function() {
-//       showOrHideYT("frameZES"+ i);
-//   };
-// })(i));
-// var div = document.createElement('div');
-// div.innerHTML = post_body;
-// var firstImage = div.getElementsByTagName('img')[0]
-// var imgSrc = firstImage ? firstImage.src : "";
-// or, if you want the unresolved src, as it appears in the original HTML:
-
-// var rawImgSrc = firstImage ? firstImage.getAttribute("src") : "";
-// <iframe allowtransparency="true" style="background: #FFFFFF;" 
-//     src="http://zingaya.com/widget/9d043c064dc241068881f045f9d8c151" 
-//     frameborder="0" height="184" width="100%">
-// </iframe>
-    // images.onload = function(){
-    //   var imageWidth = this.offsetWidth,
-    //       imageHeight = this.offsetHeight,
-    //       vpWidth = document.documentElement.clientWidth,
-    //       vpHeight = document.documentElement.clientHeight;
-    
-    //   this.style.position = 'absolute'
-    //   this.style.left = (vpWidth - imageWidth)/2 + 'px';
-    //   this.style.top = (vpHeight - imageHeight)/2 +
-    //                    window.pageYOffset + 'px';
-    // }
-    // ifrm.style.scrolling="overflow:hidden;
-    // <iframe src="otherpage.html" scrolling="no" style="overflow:hidden;"></iframe>
-    // document.body.appendChild(ifrm)
-// var image1 = document.querySelectorAll("img:nth-child(NodeList[1])");
-// console.log(image1);
-// var div = document.createElement('div');
-// div.style.width = '500px';
-// div.style.height = '150px';
-
-// var image1 = document.createElement("div");
-// image1.style = "height = 150px; width = 500px";
-// var newContent1 = document.createTextNode("Hi there and greetings!"); 
-// image1.appendChild(newContent1);  
-// console.log(newContent1);
-
-// var image2 = document.createElement("div");
-// image2.style = "height = 150px; width = 500px";
-// var newContent2 = document.createTextNode("Hi there and greetings!"); 
-// image2.appendChild(newContent2);  
-// console.log(newContent2);
-
-// let ele = document.createElement('div')
-// let text = document.createTextNode('something is showing')
-// ele.appendChild(text)
-// document.body.appendChild(ele)
-// console.log(ele)
-
-
-// const yourElement = document.createElement('iframe')
-// document.body.appendChild(yourElement)
-
-// window.onload = function(){
-//     var link = "http://www.quirksmode.org/iframetest2.html"
-//  var iframe = document.createElement('iframe');
-//  iframe.frameBorder=0;
-//  iframe.width="300px";
-//  iframe.height="250px";
-//  iframe.id="randomid";
-//  iframe.setAttribute("src", link);
-//  document.getElementById("ad54").appendChild(iframe);
- 
-//  }
-
-
-// document.body.onload = addElement;
-// function addElement () { 
-//   // create a new div element 
-//   const newDiv = document.createElement("div"); 
-  
-//   // and give it some content 
-//   const newContent = document.createTextNode("Hi there and greetings!"); 
-  
-//   // add the text node to the newly created div
-//   newDiv.appendChild(newContent);  
-//   console.log(newDiv);
-
-//   // add the newly created element and its content into the DOM 
-//   const currentDiv = document.getElementById("div1"); 
-//   document.body.insertBefore(newDiv, currentDiv); 
-//   console.log(currentDiv);
-// }
-
-// div.style.width = '500px';
-// div.style.height = '150px';
-
-// var div2 = document.createElement("div");
-// console.log(div2);
-// div.style.width = '500px';
-// div.style.height = '150px';
